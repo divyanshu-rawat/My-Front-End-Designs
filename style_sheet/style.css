@@ -15,12 +15,17 @@ div.portfoliocard{
 	width:400px;
 	background:rgba(255,255,255,1);
 	border:1px solid rgba(0,0,0,.7);
-	box-shadow: 6px 6px 6px black;
+	box-shadow: 4px 4px 4px black;
 	border-radius:6px;
 	margin:7.6% auto;
 	overflow:hidden;
 	z-index:100;
 
+}
+
+div.portfoliocard:hover
+{
+	box-shadow: 6px 6px 4px black;
 }
 div.portfoliocard div.coverphoto{
 	width:100%;
@@ -50,6 +55,12 @@ div.portfoliocard div.right_col{
 	margin-left:-1px;
 	border-bottom-right-radius:5px;
 }
+
+div.portfoliocard div.right_col:hover
+{
+	box-shadow:inset 2px 2px 9px  #4d4dff;
+}
+
 div.portfoliocard div.profile_picture{
 	width:110px;
 	height:110px;
@@ -110,7 +121,7 @@ div.portfoliocard ul.contact_information li:before{
 	background-repeat:no-repeat;
 	margin-right:5px;
 	opacity:0.8;
-	/* border: 1px solid red; */
+	/* border: 1px solid red; */ 
 }
 div.portfoliocard ul.contact_information li:hover:before{
 	opacity:1;
