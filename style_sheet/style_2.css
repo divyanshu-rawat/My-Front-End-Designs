@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-image: url('../additional_stuff/black-white-background-3.jpg');
+}
+
+div#loader_container {
+  width: 300px;
+  margin: 100px auto;
+  text-align: center;
+  padding-top: 50px;
+}
+
+div#bar_container {
+  height: 24px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 6px black;
+  margin-bottom: 24px;
+  position: relative;
+}
+
+div#progress_bar {
+  height: 110%;
+  position: absolute;
+  top: -2px;
+  left: 0px;
+  border-top: 1px solid #e5ebf4;
+  border-radius: 20px;
+  box-shadow: 3px 3px 6px black;
+  width: 10%;
+}
+
+div#progress_percentage {
+  position: absolute;
+  top: -40px;
+  right: -10px;
+  width: 40px;
+  height: 24px;
+  padding-top: 6px;
+  border: 1px solid grey;
+  font-size: 10px;
+  color: #737371;
+  box-shadow: 3px 3px 5px black;
+}
+
+
+div#progress_percentage::after {
+
+  content: "";
+  position: absolute;
+  left: 14px;
+  bottom: -10px;
+  border-top: 5px solid #c9c9d3;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid transparent;
+}
+
+div#text_container {
+  color: #757575;
+  font-weight: bold;
+  font-size: 22px;
+  text-shadow: -1px 1px 1px #d1d0cc;
+}
+
+div#text_container span {
+  display: block;
+  font-weight: normal;
+  font-size: 11px;
+  margin-top: 6px;
+}
