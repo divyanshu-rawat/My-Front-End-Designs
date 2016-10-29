@@ -9,6 +9,8 @@
 * launch index.html or index_2.html or index_3.html depending upon your choice enjoy :grey_exclamation:
 
 * I have attached screenshots below :grey_exclamation:
+
+### Examples
  
 * index.html
 
