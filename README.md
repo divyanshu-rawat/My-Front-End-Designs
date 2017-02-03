@@ -12,13 +12,13 @@
 
 > Installation Instructions :grey_exclamation:
 
-* Clone or download the repo. into any fresh temporary folder :grey_exclamation:
+* Clone or download the repo. into any fresh temporary folder.
 
-* Cd into that root folder you just cloned locally :grey_exclamation:
+* Cd into that root folder you just cloned locally.
 
-* launch index.html or index_2.html or index_3.html depending upon your choice enjoy :grey_exclamation:
+* launch index.html or index_2.html or index_3.html depending upon your choice enjoy.
 
-* I have attached screenshots below :grey_exclamation:
+* I have attached screenshots below.
 
 ##
 
