@@ -1,0 +1,11 @@
+b {
+  display: block;
+  width: 1000px;
+  padding: 20px;
+  box-sizing: border-box;
+  font: 700 25em helvetica;
+  letter-spacing: -.05em;
+  background: url("http://farm8.staticflickr.com/7079/7112577355_92100116e2_b.jpg") no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
