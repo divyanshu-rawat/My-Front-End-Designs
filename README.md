@@ -1,6 +1,6 @@
 ## Demo 
 
-> [Live Demo Here !](https://myexpdesigns.herokuapp.com/)
+> [Live Demo Here !](https://divyanshu-rawat.github.io/My-front-end-designs/)
 
 ##
 
